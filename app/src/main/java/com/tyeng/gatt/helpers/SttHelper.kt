@@ -5,6 +5,7 @@ import android.content.Intent
 import android.speech.RecognizerIntent
 import android.speech.SpeechRecognizer
 import android.util.Log
+import com.tyeng.gatt.helpers.SimpleRecognitionListener
 
 class SttHelper(private val applicationContext: Context) {
 
